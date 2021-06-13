@@ -28,7 +28,7 @@ class CategoryList extends Component {
                             active={category.id === this.props.currentCategory.id}
                             onClick={() => this.selectCategory(category)}
                             key={category.id} >
-                            {category.name}
+                            {category.categoryName}
                         </ListGroupItem>
                     ))}
                 </ListGroup>
